@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+</head>
+
+<body>
+    <h1>Benvenuto, effettua il Login</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="email"><b>E-mail</b></label>
+            <input type="email" id="email" pattern=".+@example\.com" size="20" placeholder="inserisci la tua email"
+                required />
+        </div>
+        <br>
+        <div>
+            <label for="pass"><b>Password</b></label>
+            <input type="password" id="pass" name="password" minlength="8" required
+                placeholder="Inserisci la password" />
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="ricordami" name="ricordami"/>
+            <label for="ricordami">Ricordami</label>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Accedi"/>
+            <input type="button" value="Annulla"/>
+        </div>
+        <br>
+        <div>
+            Non hai ancora un account?
+            <a href="form.html">Registrati qui</a>
+        </div>
+
+    </form>
+</body>
+
+</html>
